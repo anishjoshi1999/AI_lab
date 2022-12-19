@@ -3,11 +3,11 @@
 
 int main()
 {
-    int a[5] = {1, 0, 1, 0, 1};
-    int b[5] = {0, 1, 1, 0, 0};
+    int a[5] = {0,0,1,1};
+    int b[5] = {0,1,0,1};
     int i, and_ans;
 
-    for (i = 0; i < 5; i++)
+    for (i = 0; i < 4; i++)
     {
 
         // using the & operator
